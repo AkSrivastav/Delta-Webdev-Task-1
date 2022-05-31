@@ -1,0 +1,261 @@
+html 
+{
+  box-sizing: border-box;
+}
+.scores{
+ position: absolute;
+ right: 35%;
+ text-decoration: none;
+ outline: none;
+ cursor: pointer;
+ font-weight: 600;
+ border-radius: 5px;
+ padding: 12px 24px;
+ border: none;
+ color: #fff;
+ background: #ff5000;
+ line-height: 1.15;
+ font-size: 18px;
+             
+ 
+}
+.main{
+  position: absolute;
+ right:55%;
+ text-decoration: none;
+ outline: none;
+ cursor: pointer;
+ font-weight: 600;
+ border-radius: 6px;
+ padding: 12px 24px;
+ border: none;
+ color: #000021;
+ background:#66ffff;
+ line-height: 1.15;
+ font-size: 18px;
+ background-color:none;
+                
+}
+.heading 
+{font-family: Rockwell Extra Bold,Rockwell Bold,monospace; 
+ position: absolute;
+ top: 10%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ text-align: center;
+ color: #fff;
+ background-color: #3366cc;
+ outline: none;
+ font-weight: 600;
+ border-radius: 10px;
+ padding: 12px 24px;
+ border: none;
+ background:#3366cc;
+ line-height: 1.15;
+ font-size: 3em;
+}
+.info-section 
+{font-family: Rockwell Extra Bold,Rockwell Bold,monospace; 
+ position: absolute;
+ top: 110%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ font-size:40px;
+ text-align: center;
+ color: #fff;
+ background-color: #3366cc;
+ outline: none;
+ font-weight: 600;
+ border-radius: 10px;
+ padding: 12px 24px;
+ border: none;
+ background:#3366cc;
+ line-height: 1.15;
+ text-align: center;
+}
+
+.display{
+ font-family: Rockwell Extra Bold,Rockwell Bold,monospace; 
+ position: absolute;
+ top: 20%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ font-size:40px;
+ text-align: center;
+ color: #fff;
+ background-color: #3366cc;
+ outline: none;
+ font-weight: 600;
+ border-radius: 10px;
+ padding: 12px 24px;
+ border: none;
+ background:#3366cc;
+ line-height: 1.15;
+ 
+  
+  
+}
+
+body 
+{
+  background-color:#66ff66;
+  display: flex;
+  justify-content:center;
+  font-family: 'Rubik',sans-serif;
+  
+}
+
+.game {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.hidden 
+{
+  display: none !important;
+}
+
+header 
+{
+  text-align: center;
+  font-size: 18px;
+}
+
+
+
+.tile-box 
+{
+  display: grid;
+  grid-template-rows: 120px 120px 120px 120px 120px 120px;
+  grid-template-columns: 120px 120px 120px 120px 120px 120px;;
+  grid-gap:7px;
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+  
+.unclickable 
+{
+  pointer-events: none;
+}
+
+.tile
+ {
+ transition: 0.15s;
+  background-color:#f36355;
+  border-radius:10px;
+  }
+
+
+.tile-r1c1:active,
+.tile-r1c1.activated,
+.tile-r1c2:active,
+.tile-r1c2.activated,
+.tile-r1c3:active,
+.tile-r1c3.activated,
+.tile-r1c4:active,
+.tile-r1c4.activated,
+.tile-r1c5:active,
+.tile-r1c5.activated,
+.tile-r1c6:active,
+.tile-r1c6.activated,
+.tile-r2c1:active,
+.tile-r2c1.activated,
+.tile-r2c2:active,
+.tile-r2c2.activated,
+.tile-r2c3:active,
+.tile-r2c3.activated,
+.tile-r2c4:active,
+.tile-r2c4.activated,
+.tile-r2c5:active,
+.tile-r2c5.activated,
+.tile-r2c6:active,
+.tile-r2c6.activated,
+.tile-r3c1:active,
+.tile-r3c1.activated,
+.tile-r3c2:active,
+.tile-r3c2.activated,
+.tile-r3c3:active,
+.tile-r3c3.activated,
+.tile-r3c4:active,
+.tile-r3c4.activated,
+.tile-r3c5:active,
+.tile-r3c5.activated,
+.tile-r3c6:active,
+.tile-r3c6.activated,
+.tile-r4c1:active,
+.tile-r4c1.activated,
+.tile-r4c2:active,
+.tile-r4c2.activated,
+.tile-r4c3:active,
+.tile-r4c3.activated,
+.tile-r4c4:active,
+.tile-r4c4.activated,
+.tile-r4c5:active,
+.tile-r4c5.activated,
+.tile-r4c6:active,
+.tile-r4c6.activated,
+.tile-r5c1:active,
+.tile-r5c1.activated,
+.tile-r5c2:active,
+.tile-r5c2.activated,
+.tile-r5c3:active,
+.tile-r5c3.activated,
+.tile-r5c4:active,
+.tile-r5c4.activated,
+.tile-r5c5:active,
+.tile-r5c5.activated,
+.tile-r5c6:active,
+.tile-r5c6.activated,
+.tile-r6c1:active,
+.tile-r6c1.activated,
+.tile-r6c2:active,
+.tile-r6c2.activated,
+.tile-r6c3:active,
+.tile-r6c3.activated,
+.tile-r6c4:active,
+.tile-r6c4.activated,
+.tile-r6c5:active,
+.tile-r6c5.activated,
+.tile-r6c6:active,
+.tile-r6c6.activated
+
+{ 
+ background-color: #00a4ed;
+border-radius:10px;
+transition:100;
+}
+
+.start-button 
+{
+ display: inline-block;
+ height: 38px;
+ text-align: center;
+ font-size: 14px;
+ letter-spacing: 0.2rem;
+ font-size:40px;
+ text-align: center;
+ color: #fff;
+ background-color: #3366cc;
+ outline: none;
+ font-weight: 600;
+ border-radius: 10px;
+ padding: 0px 24px;
+ border: none;
+ background:#3366cc;
+}
+
+.start-button:hover 
+{
+  color: #333;
+  border-color: #888;
+  outline: 0;
+}
+
+.info 
+{
+  font-size: 30px;
+}
