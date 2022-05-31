@@ -1,0 +1,45 @@
+body{
+  
+font-family: Rockwell Extra Bold,Rockwell Bold,monospace; 
+background-color:#ffff00;
+}
+
+.main{
+ position: absolute;
+ top:6.9%;
+ right:30%;
+ font-size:30px;
+  
+}
+
+button{
+text-decoration: none;
+height: 55px;
+width: 140px;
+border:1.7px half chocolate;
+font-family: Rockwell Extra Bold,Rockwell Bold,monospace; 
+font-size:18px;
+border-radius: 15px;
+color: #371B58;
+}
+
+.normal{
+ position: absolute;
+ top:20%;
+ left:33%;
+ background-color: #0099ff;
+}
+
+.sequence{
+ position: absolute;
+ top:20%;
+ left:50%;
+ background-color:#99ff66;
+}
+
+.scores{
+ position: absolute;
+ top:15%;
+ right:45%;
+ background-color:crimson;
+ }
